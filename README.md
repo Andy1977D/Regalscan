@@ -23,7 +23,7 @@
 
 Regalscan shows how a **compact edge-model (YOLOv8-n)** can help finding the right product
 That can improve the shopping experience and in enhance the customer binding, if provided by a supermarket
-Many additional features as in-shop navigation cand be included as well.
+Many additional features as in-shop navigation can be included as well.
 
 ---
 
@@ -51,7 +51,7 @@ A list of often bought articles shall be detected and highlighted in the superma
 
 ## Method
 The task is divided into 3 steps:
-- Extraction of the feauture vectors for each article
+- Extraction of the feature vectors for each article
 - Object detection of relevant object (a standard YOLO model is used)
 - Feature vector calculation and correlation to all pre-scanned articles
 Finally, if an object is detected, it is marked in the video
@@ -61,7 +61,7 @@ The script is a python script using Pytorch, Ultralytics and Timm framework.
 It can be run on a PC with GPU support.
 
 performed steps:
-Object detection on a standard YOLO 8 small model. The small model is absolutely sufficient as only the bounding boxes of relevant objects are used. The detected classes are not important. Classes are only used to delect irrelevant objects like persons.
+Object detection on a standard YOLO 8 small model. The small model is absolutely sufficient as only the bounding boxes of relevant objects are used. The detected classes are not important. Classes are only used to delete irrelevant objects like persons.
 
 Main evaluation step:
 For all pre-selected bounding boxes, a feaure vector is being calculated

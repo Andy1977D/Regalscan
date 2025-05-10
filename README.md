@@ -37,7 +37,7 @@ graph LR
     Y --> E
 
     %% live pipeline
-    A[Cam / Raspi] --> C[YOLO v8 inference]
+    A[Camera / Video] --> C[YOLO v8 inference]
     C --> D[Feature extract<br/>ConvNeXt]
     D --> E[Cosine similarity FAISS]
     E --> G[Item pick]

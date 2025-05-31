@@ -48,6 +48,12 @@ graph LR
 This demo script shall evaluate an idea of shopping assistance:
 A list of often bought articles shall be detected and highlighted in the supermarket shelf in order to assist the user finding the articles and speed up the shopping experience
 
+## License
+This demonstrator software is licensed by an **CC-BY-NC 4.0** license
+
+Author: Andreas Gotter
+
+The authors name and the link to this repo shall be used for citing
 
 ## Method
 The task is divided into 3 steps:
